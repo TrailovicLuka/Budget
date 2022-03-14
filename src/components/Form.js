@@ -43,10 +43,6 @@ function Form() {
             incomeAmount,
           };
           addIncomeTransaction(newTransaction);
-          setIncome({
-            incomeText: "",
-            incomeAmount: 0,
-          });
         } else if (SelectedOption == "minus") {
           {
             const newTransaction = {
@@ -56,18 +52,12 @@ function Form() {
             };
 
             addExpenseTransaction(newTransaction);
-            setIncome({
-              incomeText: "",
-              incomeAmount: 0,
-            });
           }
         }
       }
     }
-    setIncome({
-      incomeText: "",
-      incomeAmount: 0,
-    });
+    document.getElementById("expenseText").value = "";
+    document.getElementById("expenseAmount").value = 0;
   };
 
   return (
