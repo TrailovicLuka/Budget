@@ -67,13 +67,13 @@ body {
   border-radius: 5px;
   border: 2px solid #d3d3d3;
 }
-.descrption {
+#descrption {
   width: 450px;
   height: 40px;
   border-radius: 5px;
   border: 2px solid #d3d3d3;
 }
-.value {
+#value {
   width: 80px;
   height: 40px;
   border-radius: 5px;
@@ -97,12 +97,8 @@ button {
   background-color: none;
   border: none;
 }
-.submitButton {
+i {
   color: #bb5e24;
-  font-size: 30px;
-}
-.buttonBlue {
-  color: #2b507f !important;
   font-size: 30px;
 }
 
@@ -132,9 +128,7 @@ li {
   padding: 0 15px;
   list-style: none;
 }
-.color_2 {
-  color: #2b507f;
-}
+
 .li-expense {
   color: #bb5e24;
 }
@@ -144,78 +138,4 @@ li {
 }
 #output {
   width: 100%;
-}
-.hoverTrash {
-  padding-top: 2.5px;
-  font-size: 20px;
-  cursor: pointer;
-  color: red;
-}
-@media screen and (max-width: 799px) {
-  .d-flex {
-    display: flex;
-    flex-direction: column;
-  }
-  #th {
-    max-width: 100%;
-  }
-  #flex-forma {
-    max-width: 650px;
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    grid-template-rows: repeat(1, 2fr);
-    align-items: center;
-  }
-  .descrption {
-    max-width: 250px !important;
-    height: 40px;
-    border-radius: 5px;
-    border: 2px solid #d3d3d3;
-  }
-  #root > div > div:nth-child(2) > div {
-    width: 100%;
-    height: 167px;
-    background-color: #eaf5f3;
-    border-bottom: 1px solid #d3d3d3;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  #root > div > div:nth-child(1) > div > div {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 300px;
-    color: white;
-    z-index: 10;
-  }
-  #options {
-    max-width: 300px !important;
-    height: 40px;
-    border-radius: 5px;
-    border: 2px solid #d3d3d3;
-  }
-  #root > div > div:nth-child(1) > div > img {
-    display: none;
-  }
-  .value {
-    max-width: 80px;
-    height: 40px;
-    border-radius: 5px;
-    border: 2px solid #d3d3d3;
-  }
 }
